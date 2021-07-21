@@ -13,7 +13,7 @@ from pathlib import Path
 
 from telethon import Button, TelegramClient
 
-from Yamlok.utils import load_module
+from Yamlok.utils import load_module, load_pro, load_extra
 from var import Var
 
 TOKEN = os.environ.get("TG_BOT_TOKEN", None)
