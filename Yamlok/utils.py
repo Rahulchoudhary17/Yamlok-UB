@@ -25,7 +25,7 @@ API_HASH = os.environ.get("API_HASH")
 token = os.environ.get("TG_BOT_TOKEN_BF_HER")
 SUDO = SUDO_USERS
 SUDO_USERS = SUDO
-xbot = TelegramClient("Yamlok", API_ID, API_HASH).start(bot_token=token)
+xbot = TelegramClient("daisyx", API_ID, API_HASH).start(bot_token=token)
 
 
 ENV = bool(os.environ.get("ENV", False))
