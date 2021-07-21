@@ -108,4 +108,3 @@ CMD_HELP.update(
         "\nUsage .tm Give Telegraph Link of media nd .tt telegraph link of text ."
     }
 )
-© 2021 GitHub, Inc.
