@@ -105,7 +105,6 @@ def build_keyboard(buttons):
         "button": f"**Plugin : **`button`\
     \n\n**Button post helper**\
     \n•  **Syntax : **`.cbutton`\
-    \n•  **Function :** __For working of this you need your bot({BOT_USERNAME}) in the group/channel you are using and Buttons must be in the format as [Name on button]<buttonurl:link you want to open> and markdown is Default to html__\
     \n•  **Example :** `.cbutton test [google]<buttonurl:https://www.google.com> [Yamlok]<buttonurl:https://t.me/Yamloksupport:same> [support]<buttonurl:https://t.me/YamlokOfficial>`\
     \n\n•  **Syntax : **`.ibutton`\
     \n•  **Function :** __Buttons must be in the format as [Name on button]<buttonurl:link you want to open>__\
