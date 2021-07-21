@@ -100,8 +100,7 @@ def build_keyboard(buttons):
             keyb.append([Button.url(btn[0], btn[1])])
     return keyb
 
-
-CMD_HELP.update(
+(
     {
         "button": f"**Plugin : **`button`\
     \n\n**Button post helper**\
