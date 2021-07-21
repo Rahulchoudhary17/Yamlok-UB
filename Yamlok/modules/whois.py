@@ -73,7 +73,7 @@ async def _(event):
             cas = "**AɴᴛɪSᴘᴀᴍ (CAS) Bᴀɴɴᴇᴅ**: `Fᴀʟsᴇ`"
     else:
         cas = "**AɴᴛɪSᴘᴀᴍ (CAS) Bᴀɴɴᴇᴅ**: `Cᴏᴜʟᴅɴ'ᴛ Fᴇᴛᴄʜ`"
-    caption = """**Exᴛʀᴀᴄᴛᴇᴅ Usᴇʀ Iɴғᴏ Bʏ 𝙳𝙰𝙸𝚂𝚈X**\n
+    caption = """**Exᴛʀᴀᴄᴛᴇᴅ Usᴇʀ Iɴғᴏ Bʏ YAMLOK**\n
    **┏━━━━━━━━━━━━━━━━━━━━━**
    **┣ Lɪɴᴋ Tᴏ Pʀᴏғɪʟᴇ**: [{}](tg://user?id={})
    **┣ Usᴇʀ Iᴅ**: `{}`
