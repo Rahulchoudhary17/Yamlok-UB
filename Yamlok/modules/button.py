@@ -4,7 +4,7 @@ import re
 
 from telethon import Button
 
-from Yamlok import bot, BOT_USERNAME
+
 from Yamlok.utils import admin_cmd, sudo_cmd
 
 # regex obtained from:
