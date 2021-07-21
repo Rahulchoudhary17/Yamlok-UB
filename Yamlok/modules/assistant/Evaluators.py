@@ -9,7 +9,7 @@ import traceback
 
 from telethon import events
 
-from DaisyX import bot
+from Yamlok import bot
 
 
 @xbot.on(events.NewMessage(pattern="/eval ?(.*)"))
