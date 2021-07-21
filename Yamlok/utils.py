@@ -25,7 +25,7 @@ API_HASH = os.environ.get("API_HASH")
 token = os.environ.get("TG_BOT_TOKEN_BF_HER")
 SUDO = SUDO_USERS
 SUDO_USERS = SUDO
-xbot = TelegramClient("daisyx", API_ID, API_HASH).start(bot_token=token)
+xbot = TelegramClient("Yamlok", API_ID, API_HASH).start(bot_token=token)
 
 
 ENV = bool(os.environ.get("ENV", False))
@@ -89,7 +89,7 @@ def load_module(shortname):
     else:
         import Yamlok.utils
 
-        path = Path(f"DaisyX/modules/{shortname}.py")
+        path = Path(f"Yamlok/modules/{shortname}.py")
         name = "Yamlok.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
