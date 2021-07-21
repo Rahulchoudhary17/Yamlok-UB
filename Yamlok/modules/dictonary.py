@@ -47,12 +47,3 @@ async def _(event):
     except Exception:
         await edit_or_reply(event, f"Couldn't fetch meaning of {word}")
 
-
-CMD_HELP.update(
-    {
-        "dictionary": "**Plugin :** `dictionary`\
-    \n\n**Syntax :** `.ud query`\
-    \n**Usage : **fetches meaning from Urban dictionary\
-    \n\n**Syntax : **`.meaning query`\
-    \n**Usage : **Fetches meaning of the given word\
-    "}
