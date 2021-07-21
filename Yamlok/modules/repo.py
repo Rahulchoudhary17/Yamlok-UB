@@ -25,4 +25,3 @@ async def callback_query_handler(event):
             ]
                    
                   )
-© 2021 GitHub, Inc.
