@@ -55,5 +55,4 @@ CMD_HELP.update(
     \n**Usage : **fetches meaning from Urban dictionary\
     \n\n**Syntax : **`.meaning query`\
     \n**Usage : **Fetches meaning of the given word\
-    "
-    }
+    "}
