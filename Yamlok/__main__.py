@@ -74,7 +74,7 @@ else:
     print("fuck off kanger chala Ka madarchod")
 import os
 
-print("DaisyX is Up and Awake! ©️ TeamDaisyX 2021")
+print("Yamlok is Up and Awake!")
 
 
 async def legend():
