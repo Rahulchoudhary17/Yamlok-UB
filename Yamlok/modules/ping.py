@@ -6,7 +6,7 @@ from ..utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 # ting by madboy 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DaisyX"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "YAMLOK"
 
 from heroku_config import Var as Config
 
