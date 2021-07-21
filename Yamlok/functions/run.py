@@ -18,4 +18,3 @@ async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
         process.returncode,
         process.pid,
     )
-© 2021 GitHub, Inc.
