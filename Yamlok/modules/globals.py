@@ -314,7 +314,7 @@ async def watcher(event):
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DaisyX import MASTER
+from Yamlok import MASTER
 
 
 LEGEND = MASTER
