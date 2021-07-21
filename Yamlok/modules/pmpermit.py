@@ -24,7 +24,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 import Yamlok.modules.sql_helper.pmpermit_sql as pmpermit_sql
 from Yamlok import ALIVE_NAME, CMD_HELP, CUSTOM_PMPERMIT, bot
 from Yamlok.utils import admin_cmd
-from Yamlok.daisyconfig import Var, Config
+from Yamlok.yamlokconfig import Var, Config
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 TELEPIC = (
