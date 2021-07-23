@@ -4,6 +4,9 @@ import os
 import heroku3
 from telethon.tl.functions.users import GetFullUserRequest
 
+from Yamlok import bot, SUDO_USERS
+from Yamlok.utils import admin_cmd
+
 Heroku = heroku3.from_key(Var.HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
 sudousers = os.environ.get("SUDO_USERS", None)
