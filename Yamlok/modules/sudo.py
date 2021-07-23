@@ -9,7 +9,7 @@ heroku_api = "https://api.heroku.com"
 sudousers = os.environ.get("SUDO_USERS", None)
 
 
-@thunderbot.on(admin_cmd(pattern="sudo"))
+@bot.on(admin_cmd(pattern="sudo"))
 async def sudo(event):
     sudo = "True" if Config.SUDO_USERS else "False"
     users = os.environ.get("SUDO_USERS", None)
@@ -19,7 +19,7 @@ async def sudo(event):
         await eor(event, f"**ThunderUserbot**\nSudo - `Disabled`")
 
 
-@thunderbot.on(admin_cmd(pattern="prefix"))
+@bot.on(admin_cmd(pattern="prefix"))
 async def handler(event):
     hndlr = Config.CMD_HNDLR
     if hndlr == r"\.":
@@ -31,7 +31,7 @@ async def handler(event):
     await eor(event, f"Command Handler - {x}\nSudo Handler - {sudohndlr}")
 
 
-@thunderbot.on(admin_cmd(pattern="addsudo(?: |$)"))
+@bot.on(admin_cmd(pattern="addsudo(?: |$)"))
 async def tb(event):
     ok = await eor(event, "Adding user as a sudo...")
     thunderbot = "SUDO_USERS"
