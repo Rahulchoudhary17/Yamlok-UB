@@ -12,7 +12,7 @@ import math
 import asyncio
 from asyncio import sleep
 from telethon.tl.types import DocumentAttributeAudio
-from Yamlok.util import admin_cmd
+from Yamlok.utils import admin_cmd
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
     """Generic progress_callback for uploads and downloads."""
