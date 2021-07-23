@@ -5,7 +5,7 @@ import heroku3
 from telethon.tl.functions.users import GetFullUserRequest
 
 from Yamlok import bot, SUDO_USERS
-from Yamlok.utils import admin_cmd
+from Yamlok.utils import admin_cmd, CMD_HELP
 
 Heroku = heroku3.from_key(Var.HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
