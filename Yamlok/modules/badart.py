@@ -81,7 +81,7 @@ async def kakashi(bsdk):
         await bsdk.edit(animation_chars[i % 10])
 
 
-@bot.on(
+@borg.on(
     pattern="ohnoo$",
     command=("ohnoo", plugin_category),
     info={
@@ -112,7 +112,7 @@ async def kakashi(bsdk):
         await bsdk.edit(animation_chars[i % 11])
 
 
-@bot.on(
+@borg.on(
     pattern="lovestory$",
     command=("lovestory", plugin_category),
     info={
@@ -147,7 +147,7 @@ async def kakashi(event):
         await event.edit(animation_chars[i % 14])
 
 
-@bot.on(
+@borg.on(
     pattern="ohhyaah$",
     command=("ohhyaah", plugin_category),
     info={
@@ -179,7 +179,7 @@ async def kakashi(baby):
     )
 
 
-@bot.on(
+@borg.on(
     pattern="foff$",
     command=("foff", plugin_category),
     info={
@@ -208,7 +208,7 @@ async def kakashi(fooku):
     )
 
 
-@bot.on(
+@borg.on(
     pattern="mf$",
     command=("mf", plugin_category),
     info={
@@ -221,7 +221,7 @@ async def kakashi(mf):
     await edit_or_reply(mf, C)
 
 
-@bot.on(
+@borg.on(
     pattern="sporn$",
     command=("sporn", plugin_category),
     info={
@@ -260,7 +260,7 @@ async def kakashi(pornhub):
     )
 
 
-@bot.on(
+@borg.on(
     pattern="spika$",
     command=("spika", plugin_category),
     info={
@@ -293,7 +293,7 @@ async def kakashi(pikachu):
     )
 
 
-@bot.on(
+@borg.on(
     pattern="sxx$",
     command=("sxx", plugin_category),
     info={
@@ -346,7 +346,7 @@ async def kakashi(saxy):
     )
 
 
-@bot.on(
+@borg.on(
     pattern="sdick ([\s\S]*)",
     command=("sdick", plugin_category),
     info={
@@ -380,7 +380,7 @@ async def kakashi(dicksay):
     )
 
 
-@bot.on(
+@borg.on(
     pattern=r"^\.(?:penis|dick)\s?(.)?",
     command=("penis|dick", plugin_category),
     info={
