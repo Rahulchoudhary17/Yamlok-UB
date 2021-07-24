@@ -57,14 +57,7 @@ GAMBAR_TITIT = """
 # =======================================================
 
 
-@bot.on(
-    pattern="muth$",
-    command=("muth", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}muth",
-    },
-)
+@borg.on(admin_cmd(pattern="muth ?(\d+)?"))
 async def kakashi(bsdk):
     "Bad stuff"
     animation_interval = 0.3
