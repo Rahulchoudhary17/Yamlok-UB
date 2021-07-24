@@ -1,7 +1,7 @@
 import asyncio
 import random
 
-from Yamlok.utils import admin_cmd
+from Yamlok.utils import admin_cmd, sudo_cmd
 from Yamlok import CMD_HELP
 
 RRAID = [
