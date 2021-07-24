@@ -1,6 +1,7 @@
 import asyncio
 
 from Yamlok.utils import edit_or_reply
+from Yamlok.utils import admin_cmd
 
 
 plugin_category = "fun"
