@@ -80,15 +80,8 @@ async def kakashi(bsdk):
         await asyncio.sleep(animation_interval)
         await bsdk.edit(animation_chars[i % 10])
 
-
-@borg.on(
-    pattern="ohnoo$",
-    command=("ohnoo", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}ohnoo",
-    },
-)
+        
+@borg.on(admin_cmd(pattern="ohnoo ?(\d+)?"))
 async def kakashi(bsdk):
     "Bad stuff"
     animation_interval = 1
@@ -111,15 +104,8 @@ async def kakashi(bsdk):
         await asyncio.sleep(animation_interval)
         await bsdk.edit(animation_chars[i % 11])
 
-
-@borg.on(
-    pattern="lovestory$",
-    command=("lovestory", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}lovestory",
-    },
-)
+        
+@borg.on(admin_cmd(pattern="lovestory ?(\d+)?"))
 async def kakashi(event):
     "Bad stuff"
     animation_interval = 3
@@ -146,15 +132,8 @@ async def kakashi(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 14])
 
-
-@borg.on(
-    pattern="ohhyaah$",
-    command=("ohhyaah", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}ohhyaah",
-    },
-)
+        
+@borg.on(admin_cmd(pattern="ohhyaah ?(\d+)?"))
 async def kakashi(baby):
     "Bad stuff"
     await edit_or_reply(
@@ -178,15 +157,8 @@ async def kakashi(baby):
         "      👞.                  👞",
     )
 
-
-@borg.on(
-    pattern="foff$",
-    command=("foff", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}foff",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="foff ?(\d+)?"))
 async def kakashi(fooku):
     "Bad stuff"
     await edit_or_reply(
@@ -207,28 +179,14 @@ async def kakashi(fooku):
         "It just for U🖕😂\n",
     )
 
-
-@borg.on(
-    pattern="mf$",
-    command=("mf", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}mf",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="mf ?(\d+)?"))
 async def kakashi(mf):
     "Bad stuff"
     await edit_or_reply(mf, C)
 
-
-@borg.on(
-    pattern="sporn$",
-    command=("sporn", plugin_category),
-    info={
-        "header": "bad animation, try yourself ",
-        "usage": "{tr}sporn",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="sporn ?(\d+)?"))
 async def kakashi(pornhub):
     "Bad stuff"
     await edit_or_reply(
@@ -259,15 +217,8 @@ async def kakashi(pornhub):
         "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\n",
     )
 
-
-@borg.on(
-    pattern="spika$",
-    command=("spika", plugin_category),
-    info={
-        "header": "bad art, try yourself ",
-        "usage": "{tr}spika",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="spika ?(\d+)?"))
 async def kakashi(pikachu):
     "Bad stuff"
     await edit_or_reply(
@@ -292,15 +243,8 @@ async def kakashi(pikachu):
         "🅿️🅸🅺🅰️ 🅿️🅸🅺🅰️ 🅿️🅸🅺🅰️🅲🅷🆄\n",
     )
 
-
-@borg.on(
-    pattern="sxx$",
-    command=("sxx", plugin_category),
-    info={
-        "header": "bad art, try yourself ",
-        "usage": "{tr}sxx",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="sxx ?(\d+)?"))
 async def kakashi(saxy):
     "Bad stuff"
     await edit_or_reply(
@@ -345,15 +289,8 @@ async def kakashi(saxy):
         "ɮǟȶǟʊ ȶɦǟʀӄɨօ ӄʏǟ ɦǟǟʟ ,ӄɛֆǟ ʟǟɢǟ\n",
     )
 
-
-@borg.on(
-    pattern="sdick ([\s\S]*)",
-    command=("sdick", plugin_category),
-    info={
-        "header": "bad art, try yourself ",
-        "usage": "{tr}sdick <text>",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="sdick ?(\d+)?"))
 async def kakashi(dicksay):
     "Bad stuff"
     text = dicksay.pattern_match.group(1)
@@ -379,15 +316,8 @@ async def kakashi(dicksay):
         "⠀⠀⠈⠛⠯⣿⡯⠟⠛⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n",
     )
 
-
-@borg.on(
-    pattern=r"^\.(?:penis|dick)\s?(.)?",
-    command=("penis|dick", plugin_category),
-    info={
-        "header": "bad art, try yourself ",
-        "usage": "{tr}penis",
-    },
-)
+    
+@borg.on(admin_cmd(pattern="penis|dick ?(\d+)?"))
 async def kakashi(e):
     "Bad stuff"
     emoji = e.pattern_match.group(1)
