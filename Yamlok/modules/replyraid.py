@@ -1,7 +1,7 @@
 import asyncio
 import random
 
-from Yamlok.utils import ADMIN_CMD
+from Yamlok.utils import admin_cmd, CMD_HELP
 
 RRAID = [
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
