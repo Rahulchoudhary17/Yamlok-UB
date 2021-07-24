@@ -1,6 +1,7 @@
 from telethon import events
 import random, re
 from Yamlok.utils import admin_cmd
+from Yamlok import CMD_HELP
 
 METOOSTR = [
     "`Me too thanks`",
@@ -154,4 +155,19 @@ async def _(event):
     bro = random.randint(0, len(GEY_STRINGS) - 1)    
     input_str = event.pattern_match.group(1)
     reply_text = GEY_STRINGS[bro]
-    await event.edit(reply_text) 
+    await event.edit(reply_text)
+
+	
+CMD_HELP.update(
+    {
+	    "Fun": ".runss <reply>\
+\n\n.metooo\
+\n\n.rapee\
+\n\n.insultt\
+\n\n.proo\
+\n\n.abusee\
+\n\n.geyy\
+"
+    }
+)
+
