@@ -7,7 +7,7 @@ from telethon import events
 
 from Yamlok import bot, SUDO_USERS
 from Yamlok.utils import admin_cmd
-
+from Yamlok.utils import eor
 
 # Function From TeleBoT
 
