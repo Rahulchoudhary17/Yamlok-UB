@@ -14,7 +14,7 @@ async def install(event):
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
-    cmd = "ls DaisyX/modules"
+    cmd = "ls Yamlok/modules"
     process = await asyncio.create_subprocess_shell(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
@@ -40,6 +40,6 @@ async def install(event):
 
 CMD_HELP.update(
     {
-        "command_list": ".cmds\nUsage - Extracts all the plugins of this DaisyX in a link.."
+        "command_list": ".cmds\nUsage - Extracts all the plugins of this Yamlok in a link.."
     }
 )
